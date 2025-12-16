@@ -1,0 +1,14 @@
+1. buat folder baru pada dataset dengan nama seseorang. agar kode dari face_capture bisa langsung mengirim ke folder dataset  nama
+2. jalankan face capture. akan tetapi, ganti dulu nama pada kode " capture_faces("muad")" agar bisa mengarah ke folder dataset. jangan sampai salah nama.
+3. cek di dataset folder nama. jika foto sudah ke capture. lanjut ke kode fr_video.py
+4. jalankan fr_video.py. jika ingin keluar dari tab tinggal pencet "q" pada keyboard.
+5. cek file absen "panduan pengerjaan.txt" untuk mengecek apakah absen sudah terekam.
+
+6. masih ada error di bagian absen.csv. yang dimana ketika file csv diedit ketika tab fr_video dijalankan. absen.csv tidak akan berjalan.
+
+
+
+
+
+
+*fr_photo digunakan untuk mendeteksi wajah dari foto yang sudah di tuju. tinggal ganti nama pada kode img = cv2.imread("") 
